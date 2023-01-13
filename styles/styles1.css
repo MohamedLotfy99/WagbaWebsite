@@ -1,0 +1,110 @@
+fieldset {
+    border: 1px solid lightgray;
+    height: 150px;
+    width: 736;
+    max-width: 736;
+    max-height: 350px;
+
+}
+label.book-label{
+    font-size: 40px;
+    font-weight: bold;
+}
+div.scrollmenu {
+    
+    border: 1px solid lightgray;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    width: 232px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  div.scrollmenu a img {
+      height:350px;
+  }
+.button {
+    margin: 10px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #FFF;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 25px;
+}   
+.button:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+}
+.bookDeleteButton{
+  height: 35px; position: relative; right: 17%; vertical-align: 310px; z-index: 2;
+}
+.bookDeleteButton:hover{
+  border-radius: 14px;
+  background-position: right center; /*This doesn't work because of the position: absolute; I think.
+   couldn't think of a way to work around it yet tho*/
+  background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+  cursor: pointer;
+}
+.userDeleteButton{
+  right: 26%; 
+  position: absolute;
+  height: 38px;
+  margin: auto;
+}
+.userDeleteButton:hover{ 
+  border-radius: 14px;
+  background-position: right center; /*This doesn't work because of the position: absolute; I think.
+   couldn't think of a way to work around it yet tho*/
+  background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+  cursor: pointer;
+}
+.resetBtn:hover{
+  cursor: pointer;
+}
+/*
+Forte Regular
+Bauhaus 93 Regular
+*/
+h1 { 
+  color: #d54d7b; 
+  font-family: "Forte Regular", cursive; 
+  font-size: 165px; 
+  line-height: 160px; 
+  font-weight: normal; 
+  margin-bottom: 0px; 
+  margin-top: 40px; 
+  text-align: center; 
+  text-shadow: -2px 1px 1px #fff; 
+}
+
+.button-1 {background-image: linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%)}
+.button-1:hover { background-position: right center; }
+
+.button-2 {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)}
+.button-2:hover { background-position: right center; }
+
+.button-3 {background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%)}
+.button-3:hover { background-position: right center; }
+
+.button-4 {background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 51%, #00d2ff 100%)}
+.button-4:hover { background-position: right center; }

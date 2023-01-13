@@ -1,0 +1,34 @@
+<html>
+	<head>
+        <title>Wagba | Tracking Page</title>
+        <link rel="stylesheet" href="styles/styles1.css" type="text/css">
+		<link rel="shortcut icon" href="files/favicon.ico"/> 
+		<style>
+			label{
+				color: azure;
+				font-size: 18px;
+			}
+		</style>
+	</head>
+
+	<body style="background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) ,url('files/bgImg.jpg'); background-size: cover; background-attachment: fixed;">
+		<div>
+            <br><br><br><br>
+			<p style="display: flex; justify-content: center;">
+
+					<img src="files/wagbaLogo.png" width="130vh" height="130vh" >
+			
+			</p>
+		</div>
+		<br><br><br>
+		<div style="margin: auto; width: 50%; height: 50%; text-align: center;">
+			<label id = "pendingOrder" style="font-size: 25px;"> You have no pending orders </label><br><br><br><br>
+			<input type="button" value="Accept" id = "acceptBtn" class="button button-1" >
+			<input type="button" value="Cancel" id = "cancelBtn" class="button button-1" ><br>
+			<input type="button" value="Deliver" id = "deliverBtn" class="button button-1" >
+
+
+		</div>
+		<script src="src/tracking.js" type="module"  ></script>
+	</body>
+</html>
